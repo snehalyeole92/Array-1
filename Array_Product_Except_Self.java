@@ -1,7 +1,7 @@
 // Time Complexity : O(N) -> To traverse N elements of input array
 // Space Complexity : O(1) -> Since the ouput array that we created is used to store left product of each input element and then update each left product in output array with right product * left product and finally return as output. So, no extra space used
 // Did this code successfully run on Leetcode : Yes
-// We create an output array to store the left product of each element in the input array. Then we traverse the input array from the end to calculate the right product and update the output array by multiplying the right product with the left product already stored in the output array.
+// We created an output array to store the left product of each element in the input array. Then we traverse the input array from the end to calculate the right product and update the output array by multiplying the right product with the left product already stored in the output array.
 
 // Your code here along with comments explaining your approach
 class Solution {
